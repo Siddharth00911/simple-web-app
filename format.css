@@ -26,6 +26,8 @@ html {
 
 /*BASE done*/
 
+
+
 header {
     width: 100%;
     display: flex;
@@ -34,6 +36,8 @@ header {
     align-items: center;
     position: fixed;
     z-index: 999;
+    background-color: rgba(19, 17, 17, 0.888);
+
 
 }
 
@@ -46,7 +50,10 @@ header {
 #menu li a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
+    position: sticky;
+    /* top bar make static*/
+    top: 50px;
 }
 
 section {
@@ -104,4 +111,20 @@ td {
     background-color: greenyellow;
     align-items: center;
     padding: 10px;
+}
+
+#paddingtop {
+    padding-top: 50px;
+}
+
+/* above id is not working */
+
+#leftimg {
+    width: 50%;
+    float: left;
+}
+
+#rightimg {
+    width: 50%;
+    float: right;
 }
